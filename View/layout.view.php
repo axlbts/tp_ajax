@@ -31,7 +31,7 @@ $vcontent = new $content['class']();
  </aside>
 
  <div id="content">
-  <p><?php $vcontent->$content['method']($content['arg']) ?></p>
+  <p><?php $vcontent->{$content['method']}($content['arg']) ?></p>
  </div><!-- id="content" -->
 
  <aside>
